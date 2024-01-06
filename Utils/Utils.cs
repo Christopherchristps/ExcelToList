@@ -1,6 +1,6 @@
 using System.IO;
 
-namespace ExcelToObject.Utils
+namespace ExcelToList.Utils
 {
     public class Utils
     {

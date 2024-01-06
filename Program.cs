@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Text.Json;
-using ExcelToObject.Models;
-using ExcelToObject.Utils;
+using ExcelToList.Models;
+using ExcelToList.Utils;
 
-namespace ExcelToObject
+namespace ExcelToList
 {
     class Program
     {

@@ -5,7 +5,7 @@ using System.Data;
 using System.IO;
 using System.Linq;
 
-namespace ExcelToObject.Utils
+namespace ExcelToList.Utils
 {
     public static class Extensions
     {

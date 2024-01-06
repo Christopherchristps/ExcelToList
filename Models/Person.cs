@@ -1,4 +1,4 @@
-namespace ExcelToObject.Models
+namespace ExcelToList.Models
 {
     public class Person
     {
