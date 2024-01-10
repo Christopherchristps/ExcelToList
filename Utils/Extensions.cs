@@ -45,9 +45,9 @@ namespace ExcelToList.Utils
                     {
                         //Create the data column 
                         if (row == 1)
-                            dt.Columns.Add(worksheet.Cells[row, col].Value.ToString());
+                            dt.Columns.Add(worksheet.Cells[row, col].Text.ToString());
                         else
-                            dr[i++] = worksheet.Cells[row, col].Value.ToString();
+                            dr[i++] = worksheet.Cells[row, col].Text.ToString();
                     }
                     if (row > 1)
                         dt.Rows.Add(dr);
